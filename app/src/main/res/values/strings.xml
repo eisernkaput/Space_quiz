@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Space_quiz</string>
+    <!-- Strings for the widgets -->
+    <string name="edit_text">Type in your answer here.</string>
+    <string name="radio_button">True</string>
+    <string name="radio_button_false">False</string>
+    <string name="submit_button">Submit answers</string>
+    <!-- Strings for the toast messages -->
+    <string name="toast_message_pass">Congratulations!\nYou passed!</string>
+    <string name="toast_message_try_again1">Oops!\nTry again, you answered 1 question correctly.</string>
+    <string name="toast_message_try_again2">Oops!\nTry again, you answered  2 questions correctly.</string>
+    <string name="toast_message_try_again3">Oops!\nTry again, you answered  3 question correctly.</string>
+    <string name="toast_message_try_again4">Oops!\nTry again, you answered  4 question correctly.</string>
+    <string name="toast_message_try_again5">Oops!\nTry again, you answered  5 question correctly.</string>
+    <string name="toast_message_try_again6">Oops!\nTry again, you almost passed.</string>
+    <string name="instruction_notes">\n\nInstruction notes: \n\nBelow you will see a quiz about space and its exploration by mankind. The answers to the questions can be as follows: the choice of several correct answers from the specified, true or false statement, you must enter the correct answer.\nYou have to answer all the questions correctly to pass.</string>
+    <!-- Strings for the 1st question -->
+    <string name="first_q_name">1. The first man in space.</string>
+    <string name="first_q_description">On 12 April 1961, he became the first man in the world\'s history to fly into outer space. The carrier rocket "Vostok" with "Vostok-1" on Board which he was, were launched from the cosmodrome "Baikonur". Starting from April 12, 1962, the day of he\'s flight into space was declared a holiday — cosmonautics Day.\n\nQuestion: Write below his name.</string>
+    <!-- Strings for the 2nd question -->
+    <string name="second_q_name">2. Radiation belt of the Earth</string>
+    <string name="second_q_description">The area of the nearest near–earth space in the form of a ring surrounding the Earth, in which huge streams of protons and electrons captured by the dipole magnetic field of the Earth are concentrated, was called the radiation belt of the Earth. The radiation belt of the Earth was discovered by American and Soviet scientists in 1957–1958 . Since then, a huge number of experiments have been carried out in space, which allowed to study the basic properties and features of the radiation belt of the Earth. Radiation zones like earth exist in planets with a magnetic field and atmosphere. Thanks to American interplanetary ships they were found in Jupiter, Saturn and Mars. \nThe radiation belt in the first approximation is a toroid in which two regions are distinguished.\n\nQuestion: At what altitude is located the outer and inner radiation belt:</string>
+    <string name="second_q_answer_1">1)	1 000 km - 6 000 km</string>
+    <string name="second_q_answer_2">2)	13 000 km - 60 000 km;</string>
+    <string name="second_q_answer_3">3)	100 km - 3 000 km;</string>
+    <string name="second_q_answer_4">4)	25 000 km - 200 000 km;</string>
+    <!-- Strings for the 3d question -->
+    <string name="third_q_name">3. The first steps of mankind on the moon.</string>
+    <string name="third_q_description">On July 16–24, 1969, the American spacecraft Apollo 11 flew, during which the inhabitants of the Earth landed on the surface of the moon for the first time in history.\nOn 20 July 1969, at 20:17:39 UTC, the crew commander Neil Armstrong and pilot Edwin Aldrin planted the lunar module of the ship in the southwestern region of the sea of Tranquility.  They remained on the lunar surface for 21 hours 36 minutes and 21 seconds. All this time, the pilot of the command module, Michael Collins, was waiting for them in near-moon orbit. Astronauts made one exit to the lunar surface, which lasted 2 hours 31 minutes 40 seconds.\n\nQuestion: is it true that the Apollo 11 expedition was the first to reach the moon's orbit?</string>
+    <!-- Strings for the 4th question -->
+    <string name="fourth_q_name">4. Retrograde and prograde motion.</string>
+    <string name="fourth_q_description">When a galaxy or a planetary system forms, its material takes the shape of a disk. Most of the material orbits and rotates in one direction. This uniformity of motion is due to the collapse of a gas cloud. The nature of the collapse is explained by the principle called conservation of angular momentum. In 2010 the discovery of several hot Jupiters with backward orbits called into question the theories about the formation of planetary systems. This can be explained by noting that stars and their planets do not form in isolation but in star clusters that contain molecular clouds. When a protoplanetary disk collides with or steals material from a cloud this can result in retrograde motion of a disk and the resulting planets.\n\nQuestion: All eight planets in the Solar System orbit the Sun in the direction that the Sun is rotating, which is counterclockwise when viewed from above the Sun's north pole. Six of the planets also rotate about their axis in this same direction.\n\nThe exceptions—the planets with retrograde rotation :</string>
+    <string name="fourth_q_answer_1">1.	Mercury</string>
+    <string name="fourth_q_answer_2">2.	Venus</string>
+    <string name="fourth_q_answer_3">3.	Earth</string>
+    <string name="fourth_q_answer_4">4.	Mars</string>
+    <string name="fourth_q_answer_5">5.	Jupiter</string>
+    <string name="fourth_q_answer_6">6.	Saturn</string>
+    <string name="fourth_q_answer_7">7.	Uranus</string>
+    <string name="fourth_q_answer_8">8.	Neptune</string>
+    <!-- Strings for the 5th question -->
+    <string name="five_q_name">5. Beyond the solar system.</string>
+    <string name="five_q_description">Our star and its planets are just a tiny part of the milky way galaxy. The milky way is a huge city of stars, so big that it would take 100,000 years to cross it at the speed of light. All stars in the night sky, including our Sun, are just some of the inhabitants of this galaxy. In addition to our own galaxy, there are a huge number of other galaxies.\nThe distances between the stars are so huge that the journey to the nearest star from the Sun can take 4 years, and this is even given the movement at the speed of light. Spacecraft pioneer-10, pioneer-11, Voyager - 1 and Voyager-2 became the very first objects made by human hands, which eventually left the Solar system.\nPioneer 10 (originally designated Pioneer F) is an American space probe, launched in 1972, that completed the first mission to the planet Jupiter.  Thereafter, Pioneer 10 became the first of five artificial objects to achieve the escape velocity that will allow them to leave the Solar System.\nIt was launched on March 2, 1972, by an Atlas-Centaur expendable vehicle from Cape Canaveral, Florida. Between July 15, 1972, and February 15, 1973, it became the first spacecraft to traverse the asteroid belt. Photography of Jupiter began November 6, 1973, at a range of 25,000,000 kilometers (16,000,000 mi), and a total of about 500 images were transmitted. The closest approach to the planet was on December 4, 1973, at a range of 132,252 kilometers (82,178 mi). During the mission, the on-board instruments were used to study the asteroid belt, the environment around Jupiter, the solar wind, cosmic rays, and eventually the far reaches of the Solar System and heliosphere.\nRadio communications were lost with Pioneer 10 on January 23, 2003, because of the loss of electric power for its radio transmitter, with the probe at a distance of 12 billion kilometers (80 AU) from Earth.\nThe Voyager program is an American scientific program that employs two robotic probes, Voyager 1 and Voyager 2, to study the outer Solar System. The probes were launched in 1977 to take advantage of a favorable alignment of Jupiter, Saturn, Uranus and Neptune. Although their original mission was to study only the planetary systems of Jupiter and Saturn, Voyager 2 continued on to Uranus and Neptune. The Voyagers now explore the outer boundary of the heliosphere in interstellar space; their mission has been extended three times and they continue to transmit useful scientific data. Neither Uranus nor Neptune has been visited by a probe other than Voyager 2.\n\nQuestion: is it true that pioneer 10 is the most distant space probe from Earth today?</string>
+    <!-- Strings for the 6 question -->
+    <string name="six_q_name">6. Commercial use of space.</string>
+    <string name="six_q_description">Commercial use of space is the provision of goods or services of commercial value by using equipment sent into Earth orbit or outer space. Examples of the commercial use of space include satellite navigation, satellite televisionand commercial satellite imagery. Operators of such services typically contract the manufacturing of satellites and their launch to private or public companies, which form an integral part of the space economy. Some commercial ventures have long-terms plans to exploit natural resources originating outside Earth, for example asteroid mining. Space tourism, currently an exceptional activity, could also be an area of future growth, as new businesses strive to reduce the costs and risks of human spaceflight.\nThe first commercial use of outer space occurred in 1962, when the Telstar 1 satellite was launched to transmit television signals over the Atlantic Ocean.\n\nQuestion: an Important part of space exploration is the creation of means of delivering spacecraft outside the Earth. The most common by far of them are launch vehicles. Select from the list below those that are created by private companies.</string>
+    <string name="six_q_answer_1">1. Falcon Heavy</string>
+    <string name="six_q_answer_2">2. Proton-M</string>
+    <string name="six_q_answer_3">3. New Glenn</string>
+    <string name="six_q_answer_4">4. Kuaizhou 1A</string>
+    <string name="six_q_answer_5">5. Electron</string>
+    <string name="six_q_answer_6">6. Atlas V</string>
+    <string name="six_q_answer_7">7. Ariane 5</string>
+    <!-- Strings for the 7 question -->
+    <string name="seven_q_name">7.Extrasolar planet.</string>
+    <string name="seven_q_description">Exoplanets are worlds located outside our Solar system. Over the past 20 years, thousands have been found using NASA\'s powerful Kepler space telescope. All of them differ in size and orbits. Some are giants spinning very close, while others are icy or rocky. But space agencies are focused on a specific form: with a similar earth size and location at a distance to a star that allows water to be stored in a liquid state. They are valuable for detection, as they can position life.\n\nQuestion: What is the name of such an area around a star within which a planetary surface can support liquid water given sufficient atmospheric pressure?</string>
+    <!-- Strings for the contentDescription -->
+    <string name="image_1">tass.ru/spec/gagarin</string>
+    <string name="image_2">Booyabazooka at English Wikipedia</string>
+    <string name="image_3">spaceflight.nasa.gov</string>
+    <string name="image_4">Solar System - Wikipedia</string>
+    <string name="image_5">visibleearth.nasa.gov/view.php?id=52392</string>
+    <string name="image_6">mil.ru</string>
+    <string name="image_7">Extrasolar planet</string>
+    <string name="background">Photo by Juskteez Vu on Unsplash</string>
+
+</resources>

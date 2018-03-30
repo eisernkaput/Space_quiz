@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/juskteez_vu_1041_unsplash"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/instruction_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/text_color_secondary"
+                android:textSize="14sp"
+                android:text="@string/instruction_notes" />
+
+            <TextView
+                android:id="@+id/q_name_1"
+                style="@style/headings"
+                android:text="@string/first_q_name" />
+
+            <ImageView
+                android:id="@+id/q_img_1"
+                style="@style/questionImage"
+                android:contentDescription="@string/image_1"
+                app:srcCompat="@drawable/first_human_in_space" />
+
+            <TextView
+                android:id="@+id/q_descr_1"
+                style="@style/questionDescription"
+                android:text="@string/first_q_description" />
+
+            <EditText
+                android:id="@+id/q_answer_1"
+                style="@style/answerZone"
+                android:ems="10"
+                android:hint="@string/edit_text"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/q_name_2"
+                style="@style/headings"
+                android:text="@string/second_q_name" />
+
+            <ImageView
+                android:id="@+id/q_img_2"
+                style="@style/questionImage"
+                android:contentDescription="@string/image_2"
+                app:srcCompat="@drawable/radiation_belts" />
+
+            <TextView
+                android:id="@+id/q_descr_2"
+                style="@style/questionDescription"
+                android:text="@string/second_q_description" />
+
+            <CheckBox
+                android:id="@+id/q_answer_2_1"
+                style="@style/answerZone"
+                android:text="@string/second_q_answer_1" />
+
+            <CheckBox
+                android:id="@+id/q_answer_2_2"
+                style="@style/answerZone"
+                android:text="@string/second_q_answer_2" />
+
+            <CheckBox
+                android:id="@+id/q_answer_2_3"
+                style="@style/answerZone"
+                android:text="@string/second_q_answer_3" />
+
+            <CheckBox
+                android:id="@+id/q_answer_2_4"
+                style="@style/answerZone"
+                android:text="@string/second_q_answer_4" />
+
+            <TextView
+                android:id="@+id/q_name_3"
+                style="@style/headings"
+                android:text="@string/third_q_name" />
+
+            <ImageView
+                android:id="@+id/q_img_3"
+                style="@style/questionImage"
+                android:contentDescription="@string/image_3"
+                app:srcCompat="@drawable/appolo_11" />
+
+            <TextView
+                android:id="@+id/q_descr_3"
+                style="@style/questionDescription"
+                android:text="@string/third_q_description" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q_answer_3"
+                    style="@style/answerZone"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/q_answer_3_1"
+                    style="@style/answerZone"
+                    android:layout_weight="1"
+                    android:text="@string/radio_button_false" />
+
+            </RadioGroup>
+
+
+            <TextView
+                android:id="@+id/q_name_4"
+                style="@style/headings"
+                android:text="@string/fourth_q_name" />
+
+            <ImageView
+                android:id="@+id/q_img_4"
+                style="@style/questionImage"
+                android:contentDescription="@string/image_4"
+                app:srcCompat="@drawable/solar_system" />
+
+            <TextView
+                android:id="@+id/q_descr_4"
+                style="@style/questionDescription"
+                android:text="@string/fourth_q_description" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_1"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_1" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_2"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_2" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_3"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_3" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_4"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_4" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_5"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_5" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_6"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_6" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_7"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_7" />
+
+            <CheckBox
+                android:id="@+id/q_answer_4_8"
+                style="@style/answerZone"
+                android:text="@string/fourth_q_answer_8" />
+
+            <TextView
+                android:id="@+id/q_name_5"
+                style="@style/headings"
+                android:text="@string/five_q_name" />
+
+            <ImageView
+                android:id="@+id/q_img_5"
+                style="@style/questionImage"
+                android:contentDescription="@string/image_5"
+                app:srcCompat="@drawable/pale_blue_dot" />
+
+            <TextView
+                android:id="@+id/q_descr_5"
+                style="@style/questionDescription"
+                android:text="@string/five_q_description" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/q_answer_5"
+                    style="@style/answerZone"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/q_answer_5_1"
+                    style="@style/answerZone"
+                    android:layout_weight="1"
+                    android:text="@string/radio_button_false" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/q_name_6"
+                style="@style/headings"
+                android:text="@string/six_q_name" />
+
+            <ImageView
+                android:id="@+id/q_img_6"
+                style="@style/questionImage"
+                android:contentDescription="@string/image_6"
+                app:srcCompat="@drawable/rocket" />
+
+            <TextView
+                android:id="@+id/q_descr_6"
+                style="@style/questionDescription"
+                android:text="@string/six_q_description" />
+
+            <CheckBox
+                android:id="@+id/q_answer_6_1"
+                style="@style/answerZone"
+                android:text="@string/six_q_answer_1" />
+
+            <CheckBox
+                android:id="@+id/q_answer_6_2"
+                style="@style/answerZone"
+                android:text="@string/six_q_answer_2" />
+
+            <CheckBox
+                android:id="@+id/q_answer_6_3"
+                style="@style/answerZone"
+                android:text="@string/six_q_answer_3" />
+
+            <CheckBox
+                android:id="@+id/q_answer_6_4"
+                style="@style/answerZone"
+                android:text="@string/six_q_answer_4" />
+
+            <CheckBox
+                android:id="@+id/q_answer_6_5"
+                style="@style/answerZone"
+                android:text="@string/six_q_answer_5" />
+
+            <CheckBox
+                android:id="@+id/q_answer_6_6"
+                style="@style/answerZone"
+                android:text="@string/six_q_answer_6" />
+
+            <CheckBox
+                android:id="@+id/q_answer_6_7"
+                style="@style/answerZone"
+                android:text="@string/six_q_answer_7" />
+
+            <TextView
+                android:id="@+id/q_name_7"
+                style="@style/headings"
+                android:text="@string/seven_q_name" />
+
+            <ImageView
+                android:id="@+id/q_img_7"
+                style="@style/questionImage"
+                android:contentDescription="@string/image_7"
+                app:srcCompat="@drawable/exoplanets" />
+
+            <TextView
+                android:id="@+id/q_descr_7"
+                style="@style/questionDescription"
+                android:text="@string/seven_q_description" />
+
+            <EditText
+                android:id="@+id/q_answer_7"
+                style="@style/answerZone"
+                android:ems="10"
+                android:hint="@string/edit_text"
+                android:inputType="text"
+                android:maxLines="1" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="48dp"
+                android:onClick="submitAnswer"
+                android:text="@string/submit_button"
+                android:background="@drawable/button"
+                android:textColor="#BBDEFB"
+                android:padding="15dp"/>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
